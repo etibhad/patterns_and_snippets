@@ -1,6 +1,8 @@
 
 # Basic Linux Commands
 
+**CLI** - Command Line Interface
+
 ## Folder commands
 
 ```
