@@ -17,6 +17,9 @@ git status
 # ezzel adjuk hozzá a staging area-hoz a fájlokat
 git add <FILE_NAME>
 
+# hozzáadniaz összes fájlt, figyelni, olyan ne kerüljön bele, a mi nem oda való!
+git add -A
+
 # a stagingben lévő fájlokból egy commit készítése commit üzenettel
 git commit -m "<COMMIT_MESSAGE>"
 
@@ -38,6 +41,19 @@ git push origin master
 * git clean
 * git stash
 * git stash drop
+* git checkout <BRANCH_NAME> # branchre lépni
+* git checkout -b <BRANCH_NAME> # léthrehozni új branchet
+* git checkout <COMMIT_HASH>
+* git branch -D <BRANCH_NAME> # branchet törölni
+* git rebase
+* git merge
+* git cherry-pic
+* git stash
+* git stash pop #
+* git stash list
+* git stash apply
+* git revert
+* git squash
 
 # git modify existing commits
 
